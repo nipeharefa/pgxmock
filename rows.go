@@ -205,6 +205,10 @@ func (r *Rows) CloseError(err error) *Rows {
 	return r
 }
 
+func (r *Rows) Close() {
+	// return
+}
+
 // RowError allows to set an error
 // which will be returned when a given
 // row number is read
